@@ -32,7 +32,7 @@
 <!-- Colors Css -->
 <link id="color-switcher" type="text/css" rel="stylesheet" href="#" />
 
-<script src="https://kit.fontawesome.com/0a176da9c8.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/{{ env('FA_KEY') }}.js" crossorigin="anonymous"></script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#header-nav" data-bs-offset="0">
